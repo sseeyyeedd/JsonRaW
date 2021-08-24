@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonRaW", "JsonRaW\JsonRaW.csproj", "{2B84212E-19C4-4601-9295-A911E0B2CFFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JsonRaW", "JsonRaW\JsonRaW.csproj", "{2B84212E-19C4-4601-9295-A911E0B2CFFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonRaW.netStandard", "JsonRaW.netStandard\JsonRaW.netStandard.csproj", "{C8F49A97-E951-430F-B5A6-FEFD161501F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{2B84212E-19C4-4601-9295-A911E0B2CFFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B84212E-19C4-4601-9295-A911E0B2CFFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B84212E-19C4-4601-9295-A911E0B2CFFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8F49A97-E951-430F-B5A6-FEFD161501F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8F49A97-E951-430F-B5A6-FEFD161501F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8F49A97-E951-430F-B5A6-FEFD161501F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8F49A97-E951-430F-B5A6-FEFD161501F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

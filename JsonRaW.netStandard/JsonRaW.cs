@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using System.IO;
 using Newtonsoft.Json;
-namespace JsonRaW
+
+namespace JsonRaW.netStandard
 {
+
     public class JsonRaW<T>
     {
         /// <summary>
@@ -15,7 +17,7 @@ namespace JsonRaW
         {
             List<T> jsonObject = null;
             string json = File.ReadAllText(jsonFilePath);
-            jsonObject =JsonConvert.DeserializeObject<List<T>>(json);
+            jsonObject = JsonConvert.DeserializeObject<List<T>>(json);
             return jsonObject ?? new List<T>();
         }
         /// <summary>
@@ -27,10 +29,10 @@ namespace JsonRaW
         {
             JsonFile.checkDirectory(jsonFilePath);
             string convertedJson;
-            convertedJson = JsonConvert.SerializeObject(convertibleObject); 
+            convertedJson = JsonConvert.SerializeObject(convertibleObject);
             File.WriteAllText(jsonFilePath, convertedJson);
         }
-        
+
     }
     public class JsonFile
     {
@@ -56,3 +58,4 @@ namespace JsonRaW
         }
     }
 }
+

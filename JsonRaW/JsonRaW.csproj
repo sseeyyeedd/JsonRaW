@@ -5,6 +5,9 @@
     <Authors>SeyedAliHoseini</Authors>
     <PackageIcon>icon.png</PackageIcon>
     <PackageIconUrl />
+    <RepositoryUrl>https://github.com/sseeyyeedd/JsonRaW</RepositoryUrl>
+    <Description>This package helps you save the information of a list in a json file. In fact, this package is a fast, light and easy way to store your information. Developed with: c#.net , .net5</Description>
+    <Version>1.2.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -12,6 +15,10 @@
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
   </ItemGroup>
 
 </Project>
